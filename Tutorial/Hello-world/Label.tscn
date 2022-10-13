@@ -1,0 +1,10 @@
+[gd_scene format=2]
+
+[node name="Label" type="Label"]
+anchor_left = 0.45
+anchor_top = 0.45
+anchor_right = 0.55
+anchor_bottom = 0.55
+text = "Hello, world!"
+align = 1
+valign = 1
