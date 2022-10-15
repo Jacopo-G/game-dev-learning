@@ -42,7 +42,7 @@ tile_set = SubResource( 1 )
 format = 1
 
 [node name="SnakeGameTick" type="Timer" parent="."]
-wait_time = 0.2
+wait_time = 0.1
 autostart = true
 
 [connection signal="timeout" from="SnakeGameTick" to="." method="_on_SnakeGameTick_timeout"]
